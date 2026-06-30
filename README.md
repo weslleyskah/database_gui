@@ -2,9 +2,11 @@
 
 A standard graphical application with a local sqlite database to add and delete registries. 
 
+![Screen](dependencies/assets/screen.png)
+
 ### Download
 
-[GUI.exe]()
+[GUI.exe](https://github.com/weslleyskah/database_gui/releases/)
 
 ### Build
 
@@ -18,7 +20,7 @@ A standard graphical application with a local sqlite database to add and delete 
 
 ### Dependencies
 
-> CMAKE, [Vulkan](https://vulkan.lunarg.com/sdk/home#windows), [ImGui](https://github.com/ocornut/imgui), GLFW, [Eigen](https://libeigen.gitlab.io/)
+> CMAKE, [Vulkan](https://vulkan.lunarg.com/sdk/home#windows), [ImGui](https://github.com/ocornut/imgui), GLFW, GLM, [Eigen](https://libeigen.gitlab.io/), sqlite
 
 ### Structure
 
