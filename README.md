@@ -1,8 +1,30 @@
 # GUI
 
+A graphical application with a local sqlite database connecting to a web dashboard.
+
+## Web Dashboard
+
+![Dashboard](dependencies/assets/img/screen2.png)
+
+### Setup
+1. Download a Thread Safe version of PHP from [windows.php.net](https://windows.php.net/download/).
+2. Extract it and rename `php.ini-development` to `php.ini`.
+3. Edit `php.ini` and remove the `;` before `extension_dir = "ext"`, `extension=pdo_sqlite`, and `extension=sqlite3`.
+4. Add the PHP folder to your system PATH.
+
+Run GUI.exe
+
+```bash
+# start the dashboard from the folder root
+php -S localhost:8000 -t dashboard
+```
+Navigate to `http://localhost:8000` in the web browser.
+
+## ImGUI Application
+
 A standard graphical application with a local sqlite database to add and delete registries. 
 
-![Screen](dependencies/assets/screen.png)
+![Screen](dependencies/assets/img/screen.png)
 
 ### Download
 
@@ -27,5 +49,6 @@ A standard graphical application with a local sqlite database to add and delete 
 | Folder | Description |
 | :--- | :--- |
 | `src/` | application |
+| `dashboard/` | web dashboard |
 | `dependencies/` | dependencies |
 | `scripts/` | build |
